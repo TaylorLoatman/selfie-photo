@@ -1,0 +1,291 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* constants */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lemonada', cursive;
+    font-weight: bold !important;
+    color: #fff;
+    text-shadow: .1rem .1rem .8rem black;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+
+/* containers */
+
+.main-section {
+    padding: 2% 10%;
+    text-align: center;
+}
+
+
+/* Navbar */
+
+.nav-item {
+    padding-right: 9%;
+}
+
+.nav-link {
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    /* font-weight: bold !important; */
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: rgba(255, 238, 6, 0.836) !important;
+}
+
+.fa-bars {
+    color: #fff;
+}
+
+
+/* title section */
+
+#title {
+    background-image: url(/images/mainBGTint.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    text-align: left;
+    color: #fff;
+    text-shadow: .1rem .1rem .8rem black;
+}
+
+.title-content {
+    margin-top: 12%;
+    width: 80%;
+}
+
+.title-info {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Package Section */
+
+#package {
+    background-color: rgb(113, 203, 255);
+    padding-top: 10%;
+}
+
+.ballon-img {
+    position: absolute;
+    padding-top: 5%;
+    left: 2%;
+    transform: translate(30px, 20px) rotate(20deg);
+    /* transform: rotateX(); */
+    width: 250px;
+}
+
+.ballon-img2 {
+    position: absolute;
+    padding-top: 15%;
+    right: 7%;
+    transform: translate(30px, 20px) rotate(-20deg);
+    width: 250px;
+}
+
+.package-header {
+    font-family: 'Lemonada', cursive;
+    font-size: 3rem;
+}
+
+.package-list {
+    margin-bottom: 3%;
+}
+
+.package-content {
+    color: rgb(71, 71, 71);
+    margin: 5%;
+    padding: 3%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.package-icon {
+    font-size: 7em;
+    padding-bottom: 4% !important;
+}
+
+
+/* Pricing Section */
+
+.fa-heart {
+    color: rgb(209, 22, 22);
+}
+
+.fa-heart:hover {
+    color: rgba(209, 22, 22, 0.39);
+}
+
+.fa-smile-wink {
+    color: rgb(255, 238, 1);
+}
+
+.fa-smile-wink:hover {
+    color: rgba(255, 238, 1, 0.397);
+}
+
+.fa-smile {
+    color: rgb(11, 212, 71);
+}
+
+.fa-smile:hover {
+    color: rgba(11, 212, 71, 0.39);
+}
+
+.price-header {
+    font-family: 'Lemonada', cursive;
+}
+
+.price-content p {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(71, 71, 71);
+    font-size: 1.5rem;
+    padding: 7%;
+}
+
+.btn-warning {
+    background-color: rgba(255, 238, 6, 0.836) !important;
+    color: rgb(71, 71, 71) !important;
+}
+
+
+/* Gallery Section */
+
+
+/* background section */
+
+.fixed {
+    background-image: url(/images/background2.jpg);
+    z-index: -1;
+}
+
+.dark {
+    /* background-color: rgba(0, 0, 0, 0.75); */
+    color: #ffffff;
+    padding: 7rem 2rem;
+}
+
+
+/* Review Section */
+
+.balloon-img3 {
+    position: absolute;
+    padding-top: 8%;
+    left: 2%;
+    transform: translate(30px, 20px) rotate(20deg);
+    width: 250px;
+}
+
+.balloon-img4 {
+    position: absolute;
+    padding-top: 8%;
+    right: 4%;
+    transform: translate(30px, 20px) rotate(-20deg);
+    width: 250px;
+}
+
+.balloon-img5 {
+    position: absolute;
+    right: 40%;
+    width: 250px;
+}
+
+#review {
+    background-color: rgb(113, 203, 255);
+    padding: 7%;
+}
+
+blockquote {
+    color: #fff;
+    text-shadow: .1rem .1rem .8rem black;
+}
+
+.fa-quote-left {
+    color: rgba(255, 238, 6, 0.836);
+    margin: 1rem;
+}
+
+.clients img {
+    border: 2px solid rgb(183, 185, 64);
+    border-radius: 50%;
+}
+
+blockquote p {
+    font-size: 20px;
+}
+
+.review-hr {
+    border-top: .1rem solid rgba(255, 238, 6, 0.836);
+    width: 70%;
+}
+
+.btn-row {
+    text-align: center;
+}
+
+.review-btn {
+    margin-top: 7% !important;
+}
+
+
+/* Contact Section */
+
+.contact-logo {
+    width: 230px !important;
+}
+
+footer p {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(71, 71, 71) !important;
+    font-size: 1.5rem;
+}
+
+.fa-instagram {
+    font-size: 1.5em;
+    color: #000;
+}
+
+.fa-instagram:hover {
+    color: rgba(255, 238, 6, 0.836) !important;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+    .title-info {
+        text-align: center;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-brand {
+        font-size: 2rem !important;
+    }
+    .title-content {
+        margin-top: 20% !important;
+    }
+    .ballon-img {
+        padding-top: 10%;
+    }
+    .ballon-img2 {
+        padding-top: 25%;
+    }
+}
